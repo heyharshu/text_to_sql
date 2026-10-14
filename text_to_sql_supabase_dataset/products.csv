@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,active
+1,Wireless Mouse,Electronics,1299.00,true
+2,Mechanical Keyboard,Electronics,5499.00,true
+3,USB-C Hub,Electronics,2999.00,true
+4,Notebook Set,Stationery,349.00,true
+5,Desk Lamp,Home Office,2199.00,true
+6,Ergonomic Chair,Furniture,18999.00,true
+7,Water Bottle,Lifestyle,799.00,true
+8,Laptop Stand,Home Office,1799.00,true
+9,Monitor 27-inch,Electronics,21999.00,true
+10,Backpack,Lifestyle,2499.00,true
+11,Pen Set,Stationery,199.00,true
+12,Webcam,Electronics,3999.00,true
+13,Desk Organizer,Home Office,899.00,true
+14,Headphones,Electronics,6999.00,true
+15,Standing Desk,Furniture,24999.00,true
+16,Coffee Mug,Lifestyle,499.00,true
+17,External SSD,Electronics,8999.00,true
+18,Whiteboard,Office Supplies,1599.00,true
+19,Paper Pack,Office Supplies,599.00,true
+20,Phone Stand,Accessories,399.00,true

@@ -123,7 +123,7 @@ export default function App() {
     <footer className="composer-wrap">
       <form className="composer" onSubmit={event => { event.preventDefault(); send() }}>
         <Textarea ref={input} aria-label="Your message" placeholder={pending ? 'Add the detail I asked for…' : 'Ask a question, or just say hi…'} value={draft} maxLength={2000} disabled={busy} onChange={event => setDraft(event.target.value)} onKeyDown={event => { if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); send() } }} />
-        <div className="composer-actions"><span className="composer-note">{pending ? 'Replying to a clarification' : `${revenueScope === 'completed' ? 'Completed orders' : 'All statuses'} · ${discount === 'fraction' ? 'fractional' : 'percentage'} discounts`} · Enter to send</span><Button type="submit" size="icon" aria-label="Send message" disabled={busy || !draft.trim()}>{busy ? <Loader2 size={17} className="spinner" /> : <ArrowUp size={19} />}</Button></div>
+        <div className="composer-actions"><span className="composer-note">{pending ? 'Replying to a clarification · Enter to send' : 'Enter to send'}</span><Button type="submit" size="icon" aria-label="Send message" disabled={busy || !draft.trim()}>{busy ? <Loader2 size={17} className="spinner" /> : <ArrowUp size={19} />}</Button></div>
       </form>
       <div className="project-footer">
         <span>Built by Harsh Gupta</span>
